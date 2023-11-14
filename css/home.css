@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  height: 500vh;
+}
+
+.home-page {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  padding: 50px;
+  gap: 1.5rem;
+}
+.title-logo img {
+  margin-top: 5rem;
+  width: 45rem;
+}
+.title-span {
+  font-size: 20px;
+  color: red;
+}
+.text-home {
+  word-wrap: break-word;
+  font-size: 23px;
+  text-align: left;
+}
+.btn-home {
+  padding: 20px;
+  font-size: 18px;
+  width: 20%;
+  border-radius: 10px;
+  background-color: rgb(211, 0, 0);
+  color: white;
+  border: 1px solid gray;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-home:hover {
+  background-color: red;
+}
